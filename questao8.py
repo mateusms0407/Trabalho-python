@@ -1,0 +1,8 @@
+print("sou uma calculadora")
+nome=input("qual o seu nome: ")
+numero1=int(input(f"{nome} digite um numero: "))
+numero2=int(input(f"{nome} digite outro numero: "))
+print(f"a soma desses numeros é {numero1 + numero2}")
+print(f"a subtraçao desses numeros é {numero1 - numero2}")
+print(f"a divisão desses numeros é {numero1 / numero2}")
+print(f"a mutiplicação desses numeros é {numero1 * numero2}")
